@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:scaleType="fitCenter"></ImageButton>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked"
+        android:textStyle="bold"
+        android:text="일리있는 아이" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked2"
+        android:textStyle="bold"
+        android:text="일리있는 식사" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked3"
+        android:textStyle="bold"
+        android:text="일리있는 간식" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked4"
+        android:textStyle="bold"
+        android:text="일리있는 옷장" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked5"
+        android:textStyle="bold"
+        android:text="일리있는 리뷰" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked6"
+        android:textStyle="bold"
+        android:text="일리있는 홈페이지" />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#909FA6"
+        android:onClick="btnClicked7"
+        android:textStyle="bold"
+        android:text="환경설정" />
+
+    <HorizontalScrollView
+        android:id="@+id/horScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/verScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside">
+            </ImageView>
+        </ScrollView>
+    </HorizontalScrollView>
+
+</LinearLayout>
